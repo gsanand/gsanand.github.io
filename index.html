@@ -12,44 +12,53 @@
 		<link rel="stylesheet" href="assets/css/main.css" />
 
 	 <style>
-        ul.press-list {
-            list-style: none;
-            padding-left: 0;
-        }
-
-        ul.press-list li {
-            display: flex;
-            align-items: center;
-            gap: 1em;
-            padding: 0.75em 0;
-            border-bottom: 1px solid rgba(0, 0, 0, 0.075);
-        }
-
-        ul.press-list li:last-child {
-            border-bottom: none;
-        }
-
-        ul.press-list .press-logo {
-            width: 60px;
-            height: 40px;
-            object-fit: contain;
-            flex-shrink: 0;
-        }
-
-        ul.press-list .press-meta {
-            min-width: 180px;
-            color: #888;
-            font-size: 0.9em;
-        }
-
-        @media (max-width: 480px) {
-            ul.press-list li {
-                flex-wrap: wrap;
-            }
-            ul.press-list .press-meta {
-                min-width: 0;
-            }
-        }
+		ul.press-list {
+		    list-style: none;
+		    padding-left: 0;
+		}
+		
+		ul.press-list li {
+		    display: flex;
+		    align-items: center;
+		    gap: 1em;
+		    padding: 0.75em 0;
+		    border-bottom: 1px solid rgba(0, 0, 0, 0.075);
+		}
+		
+		ul.press-list li:last-child {
+		    border-bottom: none;
+		}
+		
+		ul.press-list .press-logo {
+		    width: 60px;
+		    height: 40px;
+		    object-fit: contain;
+		    flex-shrink: 0;
+		}
+		
+		ul.press-list .press-meta {
+		    min-width: 180px;
+		    color: #888;
+		    font-size: 0.9em;
+		}
+		
+		ul.press-list li a {
+		    margin-left: auto;
+		    text-align: right;
+		}
+		
+		@media (max-width: 480px) {
+		    ul.press-list li {
+		        flex-wrap: wrap;
+		    }
+		    ul.press-list .press-meta {
+		        min-width: 0;
+		    }
+		    ul.press-list li a {
+		        margin-left: 0;
+		        text-align: left;
+		    }
+		}
     </style>
 
 	</head>
@@ -141,19 +150,41 @@
 							<section id="three">
 								<div class="container">
 									<h3>Press Highlights</h3>
-									<p>My research has been featured in many press articles. Here are a few highlights: </p>
+									<p>My work has been featured in many press articles. Here are just a few highlights: </p>
 
 									<ul class="press-list">
+										
 									    <li>
 									        <img src="images/npr_logo.png" alt="NPR" class="press-logo" />
-									        <span class="press-meta"><strong>NPR</strong> &middot; January 2026</span>
+									        <span class="press-meta"> January 2026</span>
 									        <a href="https://www.npr.org/2026/01/21/nx-s1-5677276/space-stars-dark-matter-galaxy">A Failed Galaxy Could Solve the Dark Matter Mystery</a>
 									    </li>
+										
 									    <li>
 									        <img src="images/nyt_logo.png" alt="The New York Times" class="press-logo" />
-									        <span class="press-meta"><strong>The New York Times</strong> &middot; January 2026</span>
+									        <span class="press-meta"> January 2026</span>
 									        <a href="https://www.nytimes.com/2026/01/08/science/cloud-9-starless-dark-galaxy.html">This ‘Galaxy That Wasn’t’ Never Bore Any Stars</a>
 									    </li>
+
+										<li>
+									        <img src="images/sa_logo" alt="Scientific American" class="press-logo" />
+									        <span class="press-meta"> April 2025</span>
+									        <a href="https://www.scientificamerican.com/article/the-hubble-tension-is-becoming-a-hubble-crisis/">The Hubble Tension Is Becoming a Hubble Crisis</a>
+									    </li>
+
+										<li>
+									        <img src="images/quanta_logo.png" alt="Quanta Magazine" class="press-logo" />
+									        <span class="press-meta"> August 2024</span>
+									        <a href="https://www.quantamagazine.org/the-webb-telescope-further-deepens-the-biggest-controversy-in-cosmology-20240813/">JWST Further Deepens the Biggest Controversy in Cosmology</a>
+									    </li>
+
+										<li>
+									        <img src="images/nasa_logo.png" alt="NASA" class="press-logo" />
+									        <span class="press-meta"> December 2022</span>
+									        <a href="https://science.nasa.gov/missions/hubble/peekaboo-tiny-hidden-galaxy-provides-a-peek-into-the-past/">Peekaboo! Tiny, Hidden Galaxy Provides a Peek into the Past</a>
+									    </li>
+
+
 									</ul>
 
 								</div>
